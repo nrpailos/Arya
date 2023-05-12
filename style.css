@@ -11,12 +11,19 @@ body {
 
 h1 {
     text-align: center;
+
     margin-top: 3%;
 }
 
 h2 {
     text-align: center;
     margin-top: 10px;
+    margin-top: 2%;
+}
+
+h2 {
+    text-align: center;
+
 }
 
 .container {

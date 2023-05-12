@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <head>
+        <h1> Arya siendo Arya</h1>
+    </head>
+
+    <main>
+        <div class="container">
+            <img src="./Imagenes/imagen-0.jpg" alt="" width="200px" height="200px" ondragstart="drag(event)" id="arya0">
+            <img src="./Imagenes/imagen-1.jpg" alt="" width="200px" height="200px" ondragstart="drag(event)" id="arya1">
+            <img src="./Imagenes/imagen-2.jpg" alt="" width="200px" height="200px" ondragstart="drag(event)" id="arya2">
+            <img src="./Imagenes/imagen-3.jpg" alt="" width="200px" height="200px" ondragstart="drag(event)" id="arya3">
+        </div>
+
+        <div class="flex-container">
+            <div class="container">
+                <div class="box-1" id="0" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </div>
+                <div class="box-4" id="3" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </div>
+                <div class="box-3" id="2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </div>
+                <div class="box-2" id="1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </div>
+            </div>
+            <div class="boton"> <button onclick="reinicio()">Reiniciar</button></div>
+
+
+        </div>
+
+    </main>
+    <noscript>
+        este sitio hace uso de JavaScript por lo que le pedimos utilizar un navegador compatible
+    </noscript>
+
+    <footer>
+        Pagina creada con fines didacticos <br>
+        @Nrpailos
+
+    </footer>
+
+    <script src="./drag&drop.js"></script>
+</body>
+
+</html>

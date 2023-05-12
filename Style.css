@@ -11,7 +11,12 @@ body {
 
 h1 {
     text-align: center;
-    margin: 3%;
+    margin-top: 3%;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
 }
 
 .container {
